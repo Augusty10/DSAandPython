@@ -1,7 +1,6 @@
 
 from collections import defaultdict
 
-
 def subarray_sum(nums, k):
     count =0
     prefix=0
@@ -15,6 +14,6 @@ def subarray_sum(nums, k):
         return count 
     print(subarray_sum([1,1,1],2))
 
-
+ 
 #Time Complexity: O(n)
 #Space Complexity: O(n)
