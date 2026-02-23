@@ -18,3 +18,5 @@ def naive_approch(text, pattern):
 text = "AABAACAADAABAAABAA"            
 pattern = "AABA"
 print("Naive matches at indices: ", naive_approch(text, pattern))
+
+#Time Complexity = O(n*m in worst case )
